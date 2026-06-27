@@ -13,28 +13,28 @@ export default function Home() {
       label: 'Tea Collection',
       description: 'Premium blends for a refreshing and energetic you.',
       icon: '☕',
-      images: ['/images/tea_ctc.png']
+      images: [`${import.meta.env.BASE_URL}images/tea_ctc.png`]
     },
     {
       id: 'oral-care',
       label: 'Oral Care',
       description: 'Powerful herbal protection for stronger teeth & gums.',
       icon: '🦷',
-      images: ['/images/toothpaste.png']
+      images: [`${import.meta.env.BASE_URL}images/toothpaste.png`]
     },
     {
       id: 'soaps',
       label: 'Personal Care',
       description: 'Natural care for soft, glowing and healthy skin.',
       icon: '🌿',
-      images: ['/images/soap_haldi_chandan.png', '/images/soap_tulsi_neem.png']
+      images: [`${import.meta.env.BASE_URL}images/soap_haldi_chandan.png`, `${import.meta.env.BASE_URL}images/soap_tulsi_neem.png`]
     },
     {
       id: 'hygiene',
       label: 'Home Care',
       description: 'Clean, safe & effective products for your home.',
       icon: '🏠',
-      images: ['/images/toilet_cleaner.png', '/images/handwash.png']
+      images: [`${import.meta.env.BASE_URL}images/toilet_cleaner.png`, `${import.meta.env.BASE_URL}images/handwash.png`]
     }
   ];
 
@@ -105,11 +105,11 @@ export default function Home() {
           
           <div className="hero__images">
             <div className="hero__product-collage">
-              <img src="/images/tea_ctc.png" alt="Tea" className="hero__product-img" />
-              <img src="/images/toothpaste.png" alt="Toothpaste" className="hero__product-img" />
-              <img src="/images/soap_haldi_chandan.png" alt="Soap" className="hero__product-img" />
-              <img src="/images/toilet_cleaner.png" alt="Cleaner" className="hero__product-img hero__product-img--large" />
-              <img src="/images/handwash.png" alt="Handwash" className="hero__product-img" />
+              <img src={`${import.meta.env.BASE_URL}images/tea_ctc.png`} alt="Tea" className="hero__product-img" />
+              <img src={`${import.meta.env.BASE_URL}images/toothpaste.png`} alt="Toothpaste" className="hero__product-img" />
+              <img src={`${import.meta.env.BASE_URL}images/soap_haldi_chandan.png`} alt="Soap" className="hero__product-img" />
+              <img src={`${import.meta.env.BASE_URL}images/toilet_cleaner.png`} alt="Cleaner" className="hero__product-img hero__product-img--large" />
+              <img src={`${import.meta.env.BASE_URL}images/handwash.png`} alt="Handwash" className="hero__product-img" />
             </div>
           </div>
         </div>
