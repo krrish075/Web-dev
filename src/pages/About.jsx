@@ -23,7 +23,7 @@ export default function About() {
               </p>
             </div>
             <div className="story__image-wrap">
-              <img src={`${import.meta.env.BASE_URL}images/about-us.jpeg`} alt="About Us" className="story__image" />
+              <img src={`${import.meta.env.BASE_URL}images/about-products-display.jpeg`} alt="Paamaa Premium Products" className="story__image" />
               {/* <div className="story__image-placeholder">🌿</div> */}
             </div>
           </div>
