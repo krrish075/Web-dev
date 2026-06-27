@@ -30,11 +30,11 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar__inner">
         <Link to="/" className="navbar__brand">
-          <div className="navbar__logo-icon">P</div>
-          <div className="navbar__logo-text">
-            <span className="navbar__logo-name">PAAMAA</span>
-            <span className="navbar__logo-sub">एक विश्वास</span>
-          </div>
+          <img
+            className="navbar__logo"
+            src={`${import.meta.env.BASE_URL}images/paamaaa.jpeg`}
+            alt="PAAMAA"
+          />
         </Link>
 
         <div className={`navbar__nav ${mobileOpen ? 'open' : ''}`}>

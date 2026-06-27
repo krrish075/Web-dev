@@ -49,15 +49,15 @@ export default function Footer() {
             <h4 className="footer__column-title">Contact Us</h4>
             <div className="footer__contact-item">
               <span className="footer__contact-icon">📞</span>
-              <span>+91 12345 67890</span>
+              <span>+91 91122 67000</span>
             </div>
             <div className="footer__contact-item">
               <span className="footer__contact-icon">✉️</span>
-              <span>info@paamaa.com</span>
+              <span>paamaagg@gmail.com</span>
             </div>
             <div className="footer__contact-item">
               <span className="footer__contact-icon">📍</span>
-              <span>103, Green Park, New Delhi, India - 110016</span>
+              <span>121B, Sawale, Rasayani, India - 410207</span>
             </div>
           </div>
         </div>

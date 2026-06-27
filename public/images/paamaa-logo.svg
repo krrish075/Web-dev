@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 190" role="img" aria-labelledby="title desc">
+  <title id="title">PAAMAA logo</title>
+  <desc id="desc">Green and teal PAAMAA brand mark above the PAAMAA name</desc>
+  <g transform="translate(66 4)">
+    <path d="M26 75C42 27 105 10 174 30C139 32 100 46 77 69C59 87 48 105 45 123C23 111 15 95 26 75Z" fill="#087b33"/>
+    <path d="M46 32C87 1 157 5 190 45C211 71 203 104 176 127C160 140 140 151 116 160C143 136 166 113 174 88C184 57 163 37 132 29C104 22 73 24 46 32Z" fill="#087b78"/>
+    <path d="M99 69H133V151H99Z" fill="#087b33"/>
+  </g>
+  <text x="160" y="184" text-anchor="middle" fill="#07160f" font-family="Arial Black, Arial, sans-serif" font-size="48" font-weight="900" letter-spacing="1">PAAMAA</text>
+</svg>
